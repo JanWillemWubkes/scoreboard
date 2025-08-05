@@ -8,15 +8,25 @@ body {
     color: white;
     text-align: center;
     font-family: 'Cursed Timer ULiL', sans-serif;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* High-res background */
+    background: url('https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=1500&q=80') no-repeat center center fixed;
+    background-size: cover;
 }
 
 .container {
-    margin: auto;
+    margin: 0;
     display: flex;
     justify-content: space-around;
-    background: #1B244A;
+    background: rgba(27, 36, 74, 0.92); /* semi-transparant voor contrast */
     height: 385px;
     width: 575px;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
 }
 
 button {
